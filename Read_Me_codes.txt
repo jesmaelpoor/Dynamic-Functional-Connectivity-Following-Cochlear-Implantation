@@ -9,5 +9,6 @@ You will need the following toolboxes specific to functional community analysis:
 _____________________________________________
 MATLAB codes:
 1. preprocessing_steps.m : Includes preprocessing steps & the function to save results for next steps
-2. flex_alleg_calculate.m : Calculates flexibility(switching rate) and Allegiance matrix (It also calculates the features for some null networks that were not used in this study.)
+2. flex_alleg_calculate.m : Calculates flexibility(switching rate) and Allegiance matrix.
+
 3. dynFC_analysis.m : Does the analysis included in the manuscript (it also includes some analyses were not used in the study.)
