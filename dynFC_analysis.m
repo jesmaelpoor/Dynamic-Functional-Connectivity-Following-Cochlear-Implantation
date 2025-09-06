@@ -7,7 +7,7 @@ win_len = 18; %window length
 win_step = 3; %window step
 
 dir_win = 'C:\Melbourne University\Study Four-DFC\draft\code and data\windows_time18_3\'; %files including the moving window time intervals
-dir_onsets = 'C:\Melbourne University\Study Four-DFC\draft\code and data\processed_data\'; %processed recordings
+dir_onsets = 'C:\Melbourne University\Study Four-DFC\draft\code and data\processed_data\'; %window onsets
 
 subs_CI = 1:37;
 subs_CI([3,12,20,25,26,30]) = []; %CI users did not complete the experiment
@@ -1572,4 +1572,5 @@ for m = 1:6
     end
 end
 end
+
 
